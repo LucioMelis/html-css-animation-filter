@@ -69,7 +69,7 @@
 /* Esercizio 8 */
 
 .ex-8-img{
-    transition: filter 2s, border-radius 2s;
+    transition: all 2s;
 }
 
 .ex-8-img:hover{
@@ -78,3 +78,72 @@
 }
 
 /* Esercizio 9 */
+
+.ex-9-img{
+    transition: all 1.5s linear;
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: sepia(75%);
+    transform: scale(1.5);
+}
+
+/* Esercizio 10 */
+
+.ex-10-icon{
+    animation: icon 1s infinite linear;
+}
+
+@keyframes icon{
+    25%{
+        transform: rotate(-90deg);
+    }
+
+    50%{
+        transform: rotate(-180deg);
+    }
+
+    75%{
+        transform: rotate(-270deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+/* Esecizio 11 */
+
+.ex-11-icon:hover{
+    animation: icons 2s linear;
+}
+
+@keyframes icons{
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* Esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: test1 2s linear;
+}
+
+@keyframes test1{
+  
+
+}
